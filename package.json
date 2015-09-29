@@ -1,0 +1,35 @@
+{
+  "name": "nevatrip-bem",
+  "description": "BEM project",
+  "version": "0.0.0",
+  "author": {
+    "name": "Realetive",
+    "email": "realetive@yandex.ru"
+  },
+  "repository": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "bem": "^0.10.0",
+    "borschik-tech-cleancss": "^2.0.1",
+    "bower": "^1.4.1",
+    "enb": "^0.17.2",
+    "enb-beautify": "^0.0.3",
+    "enb-bem-i18n": "^1.0.1",
+    "enb-bem-techs": "^2.0.0",
+    "enb-bemxjst": "^2.0.0",
+    "enb-borschik": "^2.0.0",
+    "enb-diverse-js": "^0.1.0",
+    "enb-modules": "^0.2.0",
+    "enb-postcss": "^0.1.2",
+    "precss": "^1.2.3"
+  },
+  "scripts": {
+    "start": "enb server",
+    "postinstall": "npm run deps",
+    "deps": "bower install"
+  },
+  "private": true
+}
